@@ -1,0 +1,20 @@
+{
+    "name": "alexmakarov/php-mvc",
+    "description": "Simple PHP MVC app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Makarov",
+            "email": "alex@objectundefined.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "symfony/routing": "^5.3"
+    }
+}
